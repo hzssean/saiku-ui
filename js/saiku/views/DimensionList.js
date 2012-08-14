@@ -95,7 +95,7 @@ var DimensionList = Backbone.View.extend({
             return;
         }
 
-         //在此修改
+         //TODO 在此修改
          if($(event.target).attr("title")=="[Time].[Year]"){
              $axis=$(this.workspace.el).find(".filter ul");
          }
